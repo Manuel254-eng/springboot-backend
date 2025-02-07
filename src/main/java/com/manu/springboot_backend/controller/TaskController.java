@@ -13,7 +13,14 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 
+
+import org.springframework.web.bind.annotation.*;
+
+@CrossOrigin(origins = "*", allowedHeaders = "*", methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE, RequestMethod.OPTIONS})
+
+@SecurityRequirement(name = "BearerAuth")
 @RestController
 @RequestMapping("api/v1/tasks")
 public class TaskController {
