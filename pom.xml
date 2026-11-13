@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.manu</groupId>
-	<artifactId>springboot-backend</artifactId>
+	<artifactId>loan-management</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springboot-backend</name>
+	<name>loan-management</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>

@@ -15,7 +15,6 @@ public class Task {
 
     @Column(name = "title", nullable = false)
     private String title;
-
     @Column(name = "description")
     private String description;
 

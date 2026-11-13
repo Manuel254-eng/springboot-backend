@@ -14,9 +14,9 @@ public class SwaggerConfig {
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("Task Management API")
+                        .title("Loan management API")
                         .version("1.0")
-                        .description("API documentation for Task Management System"))
+                        .description("API documentation for loan Management System"))
                 .addSecurityItem(new SecurityRequirement().addList("BearerAuth"))
                 .components(new io.swagger.v3.oas.models.Components()
                         .addSecuritySchemes("BearerAuth", new SecurityScheme()

@@ -13,8 +13,6 @@ public class SpringbootBackendApplication  implements CommandLineRunner {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootBackendApplication.class, args);
 	}
-	@Autowired
-	private TaskRepository taskRepository;
 
 
 
